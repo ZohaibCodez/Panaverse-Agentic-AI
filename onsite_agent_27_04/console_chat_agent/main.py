@@ -7,7 +7,6 @@ from agents import (
 )
 from dotenv import load_dotenv, find_dotenv
 import os
-import asyncio
 
 _: bool = load_dotenv(find_dotenv())
 
