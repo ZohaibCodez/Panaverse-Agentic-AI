@@ -7,7 +7,7 @@ from agents import (
 )
 from dotenv import load_dotenv, find_dotenv
 import os
-
+    
 _: bool = load_dotenv(find_dotenv())
 
 set_tracing_disabled(True)
